@@ -1,0 +1,37 @@
+.eventos {
+    background-color: rgba(3, 27, 3, 0.863);
+    color: azure;
+    border: 2px solid black;
+    padding: 2rem;
+    margin: 2rem;
+    height:100vh;
+    display: block;
+    flex-direction:column;
+    align-items: center; 
+    text-align: center; 
+    gap: 1rem; 
+    overflow: hidden;
+}
+
+.eventos img {
+    width: 40%;
+}
+
+.texto {
+    text-align: left;
+}
+.contactos{
+    margin-right: 10px;
+}
+@media(min-width:768px){
+    .contenedor-total{
+      width: 100vw;
+      overflow-x: hidden;
+    }
+   }
+@media(max-width: 420px){
+    .contenedor-contactos{
+        display: block;
+        width: 80vw;
+    }
+}
