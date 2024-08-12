@@ -4,7 +4,7 @@ import Footer from './Componentes/Footer/Footer'
 import Header from './Componentes/Header/Header'
 import Seccion from './Componentes/Seccion/Seccion'
 import Canchas from './Componentes/Canchas/Canchas'
-import {  HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router } from "react-router-dom";
 import Formulario from './Componentes/Formulario/Formulario'
 import Tarjetaquincho from './Componentes/Tarjeta/Tarjeta'
 import Eventos from './Componentes/Eventos/Eventos'
