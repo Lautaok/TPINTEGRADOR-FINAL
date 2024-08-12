@@ -15,6 +15,7 @@ function App() {
     <Router>
       <div className='contenedor-total'>
         <Header />
+    
         
         <Routes>
         <Route path="/" element={<Seccion />} />
